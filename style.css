@@ -1,0 +1,73 @@
+body {
+  background: black;
+  color: #d8d8d8;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 50px;
+}
+
+h1 {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+
+h2 {
+  color: #a9a9a9;
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#intro {
+  color: lightgray;
+  font-family: "Courier New", monospace;
+  font-size: 22px;
+}
+
+.warning {
+  color: gray;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.film-image {
+  width: 30%;
+  border: 3px solid white;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.film-video {
+  width: 35%;
+  border: 3px solid white;
+  margin-top: 30px;
+  display: block;
+}
+
+.video-comment {
+  color: gray;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.cast-name {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+.review {
+  color: gray;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  font-style: italic;
+}
