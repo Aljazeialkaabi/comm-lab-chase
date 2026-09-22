@@ -73,6 +73,15 @@ p {
 }
 
 
+nav a {
+  color: #888;
+  text-decoration: none;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-right: 30px;
+}
+
 /* FLASHLIGHT EFFECT */
 
 body {
