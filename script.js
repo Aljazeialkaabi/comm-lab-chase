@@ -7,7 +7,7 @@ document.addEventListener("mousemove", function(event) {
 });
 
 
-// Changes the message when the viewer clicks the screen
+// Changes the message when the person clicks the screen
 document.addEventListener("click", function() {
 
   let message = document.getElementById("hidden-message");
