@@ -5,16 +5,3 @@ document.addmouseListener("mousemove", function(mouse) {
   document.body.style.setProperty("--mouse-y", mouse.clientY + "px");
 
 });
-
-
-// Changes the message when the person clicks the screen
-document.addmouseListener("click", function() {
-
-  let message = document.getElementById("hidden-message");
-
-  if (message) {
-    message.style.display = "block";
-    message.innerHTML = "You should probably stop looking.";
-  }
-
-});

@@ -72,80 +72,91 @@ p {
   font-style: italic;
 }
 
-/* DARK FLASHLIGHT EFFECT */
+
+/* FLASHLIGHT EFFECT */
 
 body {
+
   --mouse-x: 50%;
+
   --mouse-y: 50%;
+
 }
 
 body::after {
+
   content: "";
+
   position: fixed;
+
   pointer-events: none;
+
   inset: 0;
 
   background: radial-gradient(
+
     circle 180px at var(--mouse-x) var(--mouse-y),
+
     transparent 0%,
+
     rgba(0, 0, 0, 0.25) 45%,
+
     rgba(0, 0, 0, 0.9) 100%
+
   );
 
   z-index: 10;
+
 }
 
-
-/* Hidden message from JS */
-
-#hidden-message {
-  display: none;
-  color: white;
-  font-family: "Courier New", monospace;
-  font-size: 18px;
-  margin-top: 30px;
-}
 
 /* NAVIGATION */
 
 nav {
+
   margin-bottom: 80px;
+
 }
 
 nav a {
+
   color: #888;
+
   text-decoration: none;
+
   font-family: "Courier New", monospace;
+
   font-size: 14px;
+
   letter-spacing: 2px;
+
   margin-right: 30px;
+
 }
 
 nav a:hover {
+
   color: white;
+
 }
 
 
 /* HOME PAGE */
 
 .home {
+
   min-height: 80vh;
+
 }
 
 .small-text {
+
   color: #555;
+
   font-size: 13px;
+
   letter-spacing: 2px;
+
   margin-top: 30px;
-}
 
-
-/* HIDDEN MESSAGE */
-
-#hidden-message {
-  display: none;
-  color: white;
-  font-family: "Courier New", monospace;
-  font-size: 18px;
-  margin-top: 30px;
 }
