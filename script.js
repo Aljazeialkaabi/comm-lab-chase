@@ -1,14 +1,14 @@
 // The flashlight follows the mouse
-document.addEventListener("mousemove", function(event) {
+document.addmouseListener("mousemove", function(mouse) {
 
-  document.body.style.setProperty("--mouse-x", event.clientX + "px");
-  document.body.style.setProperty("--mouse-y", event.clientY + "px");
+  document.body.style.setProperty("--mouse-x", mouse.clientX + "px");
+  document.body.style.setProperty("--mouse-y", mouse.clientY + "px");
 
 });
 
 
 // Changes the message when the person clicks the screen
-document.addEventListener("click", function() {
+document.addEmouseListener("click", function() {
 
   let message = document.getElementById("hidden-message");
 
